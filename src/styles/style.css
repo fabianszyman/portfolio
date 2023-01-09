@@ -25,15 +25,17 @@
     @apply font-outfit;
   }
   h1 {
-    @apply text-6xl sm:text-8xl main-heading;
+    @apply text-5xl sm:text-6xl main-heading;
   }
   h2 {
     @apply text-xl font-semibold;
   }
   p,
-  li,
-  a {
+  li {
     @apply font-inter text-dark-gray;
+  }
+  a {
+    @apply font-inter text-blue hover:underline hover:decoration-dashed;
   }
   .footer-icons {
     @apply dark:text-light flex items-center border border-dark dark:border-light p-4 rounded-lg justify-center;

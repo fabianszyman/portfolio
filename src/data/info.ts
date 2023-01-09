@@ -1,21 +1,16 @@
 export const info = {
   baseUrl: "https://fabianszy.vercel.app",
+  blogUrl: "https://nft-hypebeast.com",
   name: "Fabian Szymanczyk",
+  linkedInUrl: "https://www.linkedin.com/in/fabian-szymanczyk-30a801154/",
   jobDescription: "Product Manager",
-  about: `I am Fabian, a Product Manager based in Munich with more than 5 years of working experience in the industry. In my spare time, I am interested in exploring new technologies, particularly in the areas of crypto, programming, and Web3. 
-  
-  While I being in charge of numerous IT-projects covering Front-End, Back-End and Native Apps, I recently developed a strong interesed in Crypto, NFT and Blockchain technology.
-
-  As a Product Manager, I’ve always been interested in staying up to date with the latest and greatest technologies. However, I’ve never had the desire or time to dive deep into coding. That’s why I’ve decided to start this blog called nft-hypebeast.com to document my progress as I learn how to code and explore the world of Crypto, NFTs and Blockchain.
-  
-  
-  `,
+  about: `a Product Manager based in Munich with more than 5 years of working experience in the industry. While I being in charge of numerous IT-projects covering Front-End, Back-End and Native Apps, I recently developed a strong interesed in Crypto, NFT and Blockchain technology. As a Product Manager, I’ve always been interested in staying up to date with the latest and greatest technologies. However, I’ve never had the desire or time to dive deep into coding. That’s why I’ve decided to start this blog called nft-hypebeast.com to document my progress as I learn how to code and explore the world of Crypto, NFTs and Blockchain.`,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
+      name: "Senior Product Manager",
+      location: "CHECK24 Profis, Berlin",
+      startDate: "Jan 2022",
       endDate: "Present",
       description: [
         "- Developing screens and UI components for the web application using React and Tailwind.",
@@ -24,10 +19,10 @@ export const info = {
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "Professional Product Manager",
+      location: "CHECK24 Profis, Berlin",
+      startDate: "Apr 2019",
+      endDate: "Dec 2021",
       description: [
         "✓ Developing code in accordance with appropriate design and architectural rules",
         "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
@@ -37,12 +32,11 @@ export const info = {
         "✓ Best Practices and Rules Maintainer",
       ],
     },
-
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "Junior Product Manager",
+      location: "CHECK24 Profis, Berlin",
+      startDate: "Apr 2018",
+      endDate: "Mar 2019",
       description: [
         "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
         "The internship track is built by an industry expert that let develop the skills in the areas most important ",

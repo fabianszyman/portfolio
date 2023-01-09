@@ -7,6 +7,13 @@ export interface IMetaHead {
 export interface IHeroProps {
   name: string;
   about: string;
+  linkedInUrl: string;
+}
+
+export interface IAboutSectionProps {
+  name: string;
+  about: string;
+  blog: string;
 }
 
 export interface IExperience {

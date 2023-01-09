@@ -1,13 +1,15 @@
 ---
 import { IHeroProps } from "@types";
+import AboutSection from "@components/general/aboutSection.astro";
+import { info } from "@data";
 
-const { name, about } = Astro.props as IHeroProps;
+const { name } = Astro.props as IHeroProps;
 ---
 
 <section>
   <p class="dark:text-light mt-[117px]">Hey, I’m</p>
-  <h1>{name}</h1>
-  <p class="dark:text-light text-lg mb-16">
-    {about}
-  </p>
+  <a href={info.linkedInUrl}>
+    <h1>{name}</h1>
+  </a>
+  <AboutSection />
 </section>

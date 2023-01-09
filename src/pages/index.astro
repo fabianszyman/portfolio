@@ -2,6 +2,7 @@
 import { info } from "@data";
 
 import Layout from "@layouts/Layout.astro";
+import AboutSection from "@components/general/aboutSection.astro";
 import Hero from "@components/home/Hero.astro";
 import Experience from "@components/home/Experience.astro";
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
@@ -19,6 +20,7 @@ const featureProjects = info.projects.map((project, index) => {
   <head>
     <MetaHead
       title={"FS"}
+      blog={info.blogUrl}
       description={info.about}
       ogImageUrl={"/assets/images/profile.png"}
     />
@@ -26,7 +28,7 @@ const featureProjects = info.projects.map((project, index) => {
 
   <body>
     <Layout>
-      <Hero name={info.name} about={info.about} />
+      <Hero name={info.name} about={info.about} blog={info.blogUrl} />
       <Experience title={"EXPERIENCE"} details={info.experience} />
       <Experience title={"EDUCATION"} details={info.education} />
       {
