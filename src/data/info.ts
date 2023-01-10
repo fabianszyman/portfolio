@@ -13,8 +13,8 @@ export const info = {
       startDate: "Jan 2022",
       endDate: "Present",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "✓ Added 3x the flexibility to future feature ideas by planning new IT infrastructure, rebuilding 1st-level features and defining backbone services API-endpoints, that upcoming forks will be using as shared functionality.",
+        "✓ Improved usability 4x by replacing integrated web views with four different native chat messengers, including new layouts and haptic features (e.g. add appointment, swipe left to see message details).",
       ],
     },
 
@@ -24,12 +24,9 @@ export const info = {
       startDate: "Apr 2019",
       endDate: "Dec 2021",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "✓ Improved the speed of software release cycles by factor 3 with writing JavaScript end-to-end tests using Playwright.js covering all critical feature flows inside a web browser. - Side Project -",
+        "✓ Reduced business spent per year by €25k by replacing the Salesforce integration with custom build back office features (e.g. call logs, e-mail inbox, ticketing system).",
+        "✓ Grew User Sign-Ups from 900 per month by 30% MoM with implementing an automated e-mail sending-process which informed cold leads about real customer inquiries on our platform.",
       ],
     },
     {
@@ -38,35 +35,51 @@ export const info = {
       startDate: "Apr 2018",
       endDate: "Mar 2019",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "✓ Created CMS system for category team, which improved questionnaire release cycle process by 10x.",
+        "✓ Generated 22.6k payment transactions with a total volume of more than €6.7M by implementing Stripe Connect Stripe Connect payment solution into 6 front end applications.",
       ],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "Brandenburgische Technische Universität Cottbus-Senftenberg (BTU)",
+      location: "Cottbus, Germany",
+      startDate: "Oct 2015",
+      endDate: "Mar 2018",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "Master of Science in Economics and Engineering",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
+      name: "Brandenburgische Technische Universität Cottbus-Senftenberg (BTU)",
+      location: "Cottbus, Germany",
+      startDate: "Oct 2011",
+      endDate: "Mar 2015",
+      description: [
+        "Bachelor of Science in Economics and Engineering",
+      ],
+    },
+  ],
+
+  abroad: [
+    {
+      name: "RMIT University",
+      location: "Ho Chi Minh City, Vietnam",
+      startDate: "Oct 2016",
+      endDate: "Jan 2017",
+      description: [
+        "Semester abroad - Master of Science in Economics and Engineering",
+      ],
     },
     {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
+      name: "California State University (CSUF)",
+      location: "Fullerton, USA",
+      startDate: "Aug 2013",
+      endDate: "Dec 2013",
+      description: [
+        "Semester abroad - Bachelor of Science in Economics and Engineering",
+      ],
     },
   ],
 
