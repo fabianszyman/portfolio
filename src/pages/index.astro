@@ -33,12 +33,15 @@ const featureProjects = info.projects.map((project, index) => {
       <Experience title={"EDUCATION"} details={info.education} />
       <Experience title={"TIME ABROAD"} details={info.abroad} />
       {
-        /*
-      <section>
-        <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
-        <ProjectsWrapper projects={featureProjects} />
-      </section>
-    */
+        (
+          <section>
+            <a href="/projects">
+              <h2 class="w-[15rem] dark:text-light mt-16">PERSONAL PROJECTS</h2>
+            </a>
+
+            <ProjectsWrapper projects={featureProjects} />
+          </section>
+        )
       }
     </Layout>
   </body>

@@ -92,11 +92,17 @@ export const info = {
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "NFT-HYPEBEAST BLOG",
+      isFeatured: true,
+      thumbnail: "/assets/images/nft-hypebeast-blog.png",
+      githubUrl: "https://github.com/fabianszyman/nft-hypebeast.com",
+      liveUrl: "/projects/nftHypebeastBlog",
+    },
+    {
+      title: "Native Messenger",
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      liveUrl: "/projects/nativeMessenger",
     },
   ],
 };
